@@ -1,0 +1,17 @@
+extends layout
+
+block content
+	div(class='row', style='margin-left:30px;margin-top:30px;')
+		div(class='col-lg-6')
+			include question-form.html
+	div(class='row', style='margin-left:30px;margin-top:30px;')
+		div(id='question-list', class='col-lg-6')
+				h3 Your questions
+				table(class='table')
+					thead
+						th Question
+						th Name
+						th Answer
+					tbody(id="question-row")
+block specificScript
+	script(defer, src='/js/control.js')

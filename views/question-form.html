@@ -1,0 +1,28 @@
+<form id="question-form" class="form-horizontal">
+    <fieldset>
+        <!-- Form Name -->
+        <legend>Ask the mighty 8-Ball a question</legend>
+        <p>Remote control the mighty magical 8-ball with this simple form</p>
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="question">Your question</label>
+            <div class="col-md-5">
+                <input id="question" name="question" type="text" placeholder="Is this project cool?" class="form-control input-md" minlength="3" required>
+                <span class="help-block">Use a question that can be answered by yes or no</span>
+            </div>
+        </div>
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="name">Your name</label>
+            <div class="col-md-4">
+                <input id="name" name="name" type="text" placeholder="John Doe" class="form-control input-md" minlength="3" required>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="send"></label>
+            <div class="col-md-8">
+                <button id="send" name="send" type="submit" class="btn btn-success">Submit</button>
+            </div>
+        </div>
+    </fieldset>
+</form>
