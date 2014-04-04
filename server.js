@@ -51,23 +51,58 @@ io.sockets.on('connection', function(socket){
 });
 
 
+if (typeof String.prototype.startsWith != 'function') {
+    // see below for better implementation!
+    String.prototype.startsWith = function (str){
+        return this.indexOf(str) == 0;
+    };
+}
+
+// IP CONFIG
+var os=require('os');
+var ifaces=os.networkInterfaces();
+var validIp = '0.0.0.0';
+for (var dev in ifaces) {
+    var alias=0;
+    ifaces[dev].forEach(function(details){
+        if (details.family=='IPv4') {
+            console.log(dev+(alias?':'+alias:''),details.address);
+
+            //TODO Huge hack to locate private ip, might want to improve this
+            if(details.address.startsWith("192.168.")){
+                validIp = details.address;
+                console.log('Taking this ip: ' + validIp);
+            }
+
+            ++alias;
+        }
+    });
+}
+
 ///////////////////////////////////////////
 //              Routes                   //
 ///////////////////////////////////////////
 
-/////// ADD ALL YOUR ROUTES HERE  /////////
-
 server.get('/', function(req,res){
-  res.render('index.jade', {
-    locals : { 
-              title : 'Your Page Title'
-             ,description: 'Your Page Description'
-             ,author: 'Your Name'
-             ,analyticssiteid: 'XXXXXXX' 
-            }
+  res.render('welcome.jade', {
+    locals : {
+              title : 'Kiosk POC'
+             ,description: 'Not much'
+             ,author: 'Francois Legare (flegare@gmail.com)'
+             }
   });
 });
 
+//welcome page
+var ip = 'http://'+validIp+':' + port;
+server.get('/welcome', function(req,res){
+    res.render('welcome.jade', {ip : ip});
+});
+
+//control page
+server.get('/ask', function(req,res){
+    res.render('control.jade', {ip : ip});
+});
 
 //A Route for Creating a 500 Error (Useful to keep around)
 server.get('/500', function(req, res){
@@ -85,5 +120,4 @@ function NotFound(msg){
     Error.captureStackTrace(this, arguments.callee);
 }
 
-
-console.log('Listening on http://0.0.0.0:' + port );
+console.log('Listening on http://'+validIp+':' + port );

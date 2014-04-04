@@ -2,5 +2,15 @@ extends layout
 
 block content
 	div
-		a(id='sender')='Send a Message'
+		a(id='sender')='Grr Send a Message'
 		ul(id='receiver')
+	div(id='test')
+	script(type='text/javascript').
+		var qrcode = new QRCode("test", {
+			text: "http://jindo.dev.naver.com/collie",
+			width: 128,
+			height: 128,
+			colorDark : "#000000",
+			colorLight : "#ffffff",
+			correctLevel : QRCode.CorrectLevel.H
+		});

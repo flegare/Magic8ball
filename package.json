@@ -1,7 +1,7 @@
 {
-  "name": "YOUR-PROJECT-NAME-HERE",
-  "description": "YOUR PROJECT DESCRIPTION HERE",
-  "author": "YOUR NAME <your@emailaddress.com>",
+  "name": "Magic 8 Ball",
+  "description": "Quick POC for interactive kiosk",
+  "author": "Francois Legare <flegare@gmail.com>",
   "version": "0.0.1",
   "dependencies": {
     "connect": "1.8.5",
