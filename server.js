@@ -90,7 +90,7 @@ server.get('/', function(req,res){
 //welcome page
 var ip = 'http://'+validIp+':' + port;
 server.get('/welcome', function(req,res){
-    res.render('welcome.jade', {ip : ip});
+    res.render('welcome.jade', {ip : ip, host:req.headers.host});
 });
 
 //control page
