@@ -4,7 +4,6 @@
     <list default="true" id="55a5e80b-3a48-4c18-925f-c6f9ab56d648" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/welcome.jade" afterPath="$PROJECT_DIR$/views/welcome.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="InteractiveKiosk.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,7 +81,7 @@
       <file leaf-file-name="server.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="0" selection-start="2837" selection-end="2837" vertical-scroll-proportion="0.5263158" vertical-offset="1245" max-vertical-offset="1845">
+            <state line="96" column="37" selection-start="2794" selection-end="2794" vertical-scroll-proportion="0.67105263" vertical-offset="1134" max-vertical-offset="1845">
               <folding />
             </state>
           </provider>
@@ -197,8 +196,8 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/views/layout.jade" />
         <option value="$PROJECT_DIR$/views/index.jade" />
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/views/welcome.jade" />
+        <option value="$PROJECT_DIR$/server.js" />
       </list>
     </option>
   </component>
@@ -767,7 +766,7 @@
       <workItem from="1396452226279" duration="32000" />
       <workItem from="1396452279334" duration="80000" />
       <workItem from="1396452378418" duration="18127000" />
-      <workItem from="1396484176356" duration="42135000" />
+      <workItem from="1396484176356" duration="42320000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit, things left to do:&#10;&#10;- Make it more wizbang&#10;- Unit test, yeah sure TDD is great but this is a POC&#10;- Add WebGL ball with sound and 3d effect">
       <created>1396651193759</created>
@@ -781,7 +780,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60516000" />
+    <option name="totallyTimeSpent" value="60701000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="6" />
@@ -1071,14 +1070,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/welcome.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="92" selection-start="616" selection-end="616" vertical-scroll-proportion="0.3618421" vertical-offset="135" max-vertical-offset="630">
+        <state line="20" column="85" selection-start="609" selection-end="609" vertical-scroll-proportion="0.5065789" vertical-offset="69" max-vertical-offset="630">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="0" selection-start="2837" selection-end="2837" vertical-scroll-proportion="0.5263158" vertical-offset="1245" max-vertical-offset="1845">
+        <state line="96" column="37" selection-start="2794" selection-end="2794" vertical-scroll-proportion="0.67105263" vertical-offset="1134" max-vertical-offset="1845">
           <folding />
         </state>
       </provider>

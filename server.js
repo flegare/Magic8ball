@@ -84,13 +84,13 @@ for (var dev in ifaces) {
 ///////////////////////////////////////////
 
 server.get('/', function(req,res){
-    res.render('welcome.jade', {ip : ip});
+    res.render('welcome.jade', {ip : req.headers.host});
 });
 
 //welcome page
 var ip = 'http://'+validIp+':' + port;
 server.get('/welcome', function(req,res){
-    res.render('welcome.jade', {ip : ip, host:req.headers.host});
+    res.render('welcome.jade', {ip : req.headers.host});
 });
 
 //control page
