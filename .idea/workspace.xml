@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55a5e80b-3a48-4c18-925f-c6f9ab56d648" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.jade" afterPath="$PROJECT_DIR$/views/layout.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.jade" afterPath="$PROJECT_DIR$/views/index.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/welcome.jade" afterPath="$PROJECT_DIR$/views/welcome.jade" />
     </list>
     <ignored path="InteractiveKiosk.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -98,6 +99,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="welcome.jade" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/welcome.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="0" selection-start="442" selection-end="442" vertical-scroll-proportion="0.5263158" vertical-offset="0" max-vertical-offset="630">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Makefile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Makefile">
           <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
@@ -133,17 +143,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="4" column="2" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1410">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.jade" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/layout.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="12" selection-start="587" selection-end="587" vertical-scroll-proportion="0.7565789" vertical-offset="0" max-vertical-offset="690">
-              <folding>
-                <marker date="1396906883000" expanded="true" signature="1070:1276" placeholder="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -184,12 +183,10 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/views/index.jade" />
         <option value="$PROJECT_DIR$/views/sphere.html" />
         <option value="$PROJECT_DIR$/static/images/magic8.svg" />
         <option value="$PROJECT_DIR$/views/svg.html" />
         <option value="$PROJECT_DIR$/static/js/script.js" />
-        <option value="$PROJECT_DIR$/views/welcome.jade" />
         <option value="$PROJECT_DIR$/views/question-form.html" />
         <option value="$PROJECT_DIR$/views/control.jade" />
         <option value="$PROJECT_DIR$/static/js/control.js" />
@@ -199,6 +196,8 @@
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/views/layout.jade" />
+        <option value="$PROJECT_DIR$/views/index.jade" />
+        <option value="$PROJECT_DIR$/views/welcome.jade" />
       </list>
     </option>
   </component>
@@ -767,7 +766,7 @@
       <workItem from="1396452226279" duration="32000" />
       <workItem from="1396452279334" duration="80000" />
       <workItem from="1396452378418" duration="18127000" />
-      <workItem from="1396484176356" duration="41291000" />
+      <workItem from="1396484176356" duration="41565000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit, things left to do:&#10;&#10;- Make it more wizbang&#10;- Unit test, yeah sure TDD is great but this is a POC&#10;- Add WebGL ball with sound and 3d effect">
       <created>1396651193759</created>
@@ -781,7 +780,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59672000" />
+    <option name="totallyTimeSpent" value="59946000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="6" />
@@ -850,20 +849,7 @@
     <entry file="file://$PROJECT_DIR$/views/welcome.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="5" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="375">
-          <folding>
-            <marker date="1396640141000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396640141000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396640141000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396640141000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396640141000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396640141000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396640141000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396640141000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396640141000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396640141000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396640141000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396640141000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -912,7 +898,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="84" selection-start="1457" selection-end="1457" vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="645">
           <folding>
-            <marker date="1396906883000" expanded="true" signature="1070:1276" placeholder="{...}" />
+            <marker date="1396906883000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -938,13 +924,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="354" selection-end="354" vertical-scroll-proportion="0.35346097" vertical-offset="0" max-vertical-offset="679">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/sphere.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="8" selection-start="188" selection-end="188" vertical-scroll-proportion="0.18320611" vertical-offset="0" max-vertical-offset="655">
@@ -958,26 +937,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="14" selection-start="695" selection-end="695" vertical-scroll-proportion="0.28037384" vertical-offset="0" max-vertical-offset="642">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/welcome.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="24" selection-start="721" selection-end="721" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
-          <folding>
-            <marker date="1396640141000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396640141000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396640141000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396640141000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396640141000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396640141000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396640141000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396640141000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396640141000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396640141000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396640141000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396640141000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1102,10 +1061,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/layout.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="12" selection-start="587" selection-end="587" vertical-scroll-proportion="0.7565789" vertical-offset="0" max-vertical-offset="690">
+        <state line="22" column="16" selection-start="574" selection-end="574" vertical-scroll-proportion="0.70394737" vertical-offset="9" max-vertical-offset="690">
           <folding>
-            <marker date="1396906883000" expanded="true" signature="1070:1276" placeholder="{...}" />
+            <marker date="1396906883000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="73" selection-end="73" vertical-scroll-proportion="0.16447368" vertical-offset="0" max-vertical-offset="456">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/welcome.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="442" selection-end="442" vertical-scroll-proportion="0.5263158" vertical-offset="0" max-vertical-offset="630">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -3,7 +3,7 @@ extends layout
 block content
 	div(class='row')
 		div(class='col-md-6')
-			div(class='jumbotron')
+			div(class='jumbotron', style='background-color: #fff;')
 				h1 Ask the mighty 8-ball!
 				p Your only source of interactive mystical answers
 
@@ -11,8 +11,6 @@ block content
 				blockquote
 					p(id="question-text") Do you think you will receive a question soon?
 					footer(id="question-from") No one...
-
-
 
 		div(class='col-md-6')
 			include svg.html
@@ -24,8 +22,6 @@ block content
 					span(id="qrcode", style='margin-left:10px;display:inline-block;vertical-align:middle')
 
 		div(id='answer')
-
-
 
 	script(type='text/javascript').
 		var qrcode = new QRCode("qrcode", {
