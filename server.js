@@ -84,13 +84,7 @@ for (var dev in ifaces) {
 ///////////////////////////////////////////
 
 server.get('/', function(req,res){
-  res.render('welcome.jade', {
-    locals : {
-              title : 'Kiosk POC'
-             ,description: 'Not much'
-             ,author: 'Francois Legare (flegare@gmail.com)'
-             }
-  });
+    res.render('welcome.jade', {ip : ip});
 });
 
 //welcome page

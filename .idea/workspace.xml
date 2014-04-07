@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55a5e80b-3a48-4c18-925f-c6f9ab56d648" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.jade" afterPath="$PROJECT_DIR$/views/index.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/welcome.jade" afterPath="$PROJECT_DIR$/views/welcome.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
     </list>
     <ignored path="InteractiveKiosk.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,6 +77,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="server.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="94" column="0" selection-start="2713" selection-end="2713" vertical-scroll-proportion="0.46052632" vertical-offset="1200" max-vertical-offset="1845">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider editor-type-id="MarkdownPreviewEditor">
@@ -94,15 +102,6 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="welcome.jade" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/welcome.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="442" selection-end="442" vertical-scroll-proportion="0.5263158" vertical-offset="0" max-vertical-offset="630">
               <folding />
             </state>
           </provider>
@@ -193,11 +192,11 @@
         <option value="$PROJECT_DIR$/static/js/receive.js" />
         <option value="$PROJECT_DIR$/test/stub.js" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/views/layout.jade" />
         <option value="$PROJECT_DIR$/views/index.jade" />
         <option value="$PROJECT_DIR$/views/welcome.jade" />
+        <option value="$PROJECT_DIR$/server.js" />
       </list>
     </option>
   </component>
@@ -766,7 +765,7 @@
       <workItem from="1396452226279" duration="32000" />
       <workItem from="1396452279334" duration="80000" />
       <workItem from="1396452378418" duration="18127000" />
-      <workItem from="1396484176356" duration="41565000" />
+      <workItem from="1396484176356" duration="41626000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit, things left to do:&#10;&#10;- Make it more wizbang&#10;- Unit test, yeah sure TDD is great but this is a POC&#10;- Add WebGL ball with sound and 3d effect">
       <created>1396651193759</created>
@@ -780,7 +779,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59946000" />
+    <option name="totallyTimeSpent" value="60007000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="6" />
@@ -1045,13 +1044,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="36" selection-start="3207" selection-end="3207" vertical-scroll-proportion="0.0" vertical-offset="594" max-vertical-offset="1935">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="0" selection-start="401" selection-end="401" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="375">
@@ -1078,6 +1070,13 @@
     <entry file="file://$PROJECT_DIR$/views/welcome.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="0" selection-start="442" selection-end="442" vertical-scroll-proportion="0.5263158" vertical-offset="0" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="0" selection-start="2713" selection-end="2713" vertical-scroll-proportion="0.46052632" vertical-offset="1200" max-vertical-offset="1845">
           <folding />
         </state>
       </provider>
